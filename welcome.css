@@ -1,0 +1,85 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+main {
+    margin: 0 auto 90px auto;
+    max-width: 1000px;
+}
+
+header h1 {
+    color: #A67B5B;
+}
+
+main h2 {
+    margin: 60px 0 20px 0;
+    border-bottom: 2px solid #A67B5B;
+    padding: 0 0 5px 0;
+    font-size: 1.3rem;
+    color: #A67B5B;
+}
+
+.index {
+    padding: 287px 0;
+    background-image: url(nopassword/welcome.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+main img {
+    width: 700px;
+}
+
+
+.nav ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+a:link {
+    color: #A67B5B;
+    text-decoration: none;
+}
+a:visited {
+    color: #A67B5B;
+    text-decoration: none;
+}
+a:hover {
+    color: #A67B5B;
+    text-decoration: underline;
+}
+a:active {
+    color: #A67B5B;
+    text-decoration: underline;
+}
+
+.copyright {
+    background-color: #A67B5B;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+img {
+    max-width: 100%;
+}
